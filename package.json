@@ -1,0 +1,19 @@
+{
+  "name": "unesco-list",
+  "version": "0.0.1",
+  "description": "A list of unesco world heritage sites that you have visited",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormojm/unesco-list.git"
+  },
+  "author": "Jarrod Stormo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stormojm/unesco-list/issues"
+  },
+  "homepage": "https://github.com/stormojm/unesco-list#readme"
+}
