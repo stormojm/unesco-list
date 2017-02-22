@@ -2,9 +2,9 @@
   "name": "unesco-list",
   "version": "0.0.1",
   "description": "A list of unesco world heritage sites that you have visited",
-  "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/stormojm/unesco-list/issues"
   },
-  "homepage": "https://github.com/stormojm/unesco-list#readme"
+  "homepage": "https://github.com/stormojm/unesco-list#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "babel-polyfill": "^6.23.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "express": "^4.14.1"
+  }
 }
