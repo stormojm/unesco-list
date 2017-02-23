@@ -3,11 +3,10 @@
   "version": "0.0.1",
   "description": "A list of unesco world heritage sites that you have visited",
   "scripts": {
-    "test": "test",
+    "test": "mocha --compilers js:babel-register",
     "start": "nodemon lib/index.js --exec babel-node",
     "build": "babel lib -d dist",
-    "serve": "node dist/index.js",
-    "test": "mocha --compilers js:babel-register"
+    "serve": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +29,8 @@
   },
   "dependencies": {
     "babel-core": "^6.23.1",
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "react": "^15.4.2",
+    "react-router": "^3.0.2"
   }
 }
